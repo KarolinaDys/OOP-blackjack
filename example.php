@@ -11,3 +11,7 @@ foreach($deck->getCards() AS $card) {
     echo $card->getUnicodeCharacter(true);
     echo '<br>';
 }
+$blackjack = new Blackjack();
+echo "<pre>";
+print_r($blackjack->getPlayer());
+echo "</pre>";  
